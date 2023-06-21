@@ -1,0 +1,224 @@
+.home-tab {
+    display: flex;
+    flex-direction: column;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 125px;
+    border: 1px solid rgb(243, 239, 239);
+    border-top: none;
+    position: relative;
+}
+
+.home-tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.for-you, .following {
+    height: 60px;
+    margin-top: 0px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background-color 0.15s;
+    cursor: pointer;
+}
+
+
+.for-you {
+    width: 285px;
+}
+
+.for-you:hover {
+    background-color: rgb(245, 242, 242);
+}
+
+.border {
+    position: absolute;
+    background-color: rgb(29, 155, 240);
+    border: none;
+    border-radius: 20px;
+    height: 4px;
+    width: 65px;
+    left: 110px;
+    bottom: 0;
+}
+
+.following {
+    width: 290px;
+    color: rgb(127, 124, 124);
+}
+
+.following:hover {
+    background-color: rgb(245, 242, 242);
+}
+
+.home-text {
+    padding-left: 13px;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 20px;
+    
+}
+
+.profile-image {
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile-image:hover {
+    filter: brightness(90%);    
+}
+
+.my-tweet {
+    display: flex;
+    flex-direction: column;
+    padding-left: 75px;
+    padding-right: 20px;
+    border: 1px solid rgb(243, 239, 239);
+    margin-top: -1px;
+    height: 230px;
+}
+
+.globe-image {
+    height:20px;
+    margin-right: 4px;
+}
+
+.who-can-reply-button {
+    color: rgb(29, 155, 240);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 3px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.who-can-reply-button:hover {
+    background-color: rgb(224, 236, 255);
+}
+
+.who-can-see-button {
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(29, 155, 240);
+    margin-left: 15px;
+    padding: 4px 15px;
+    border: 1px solid rgb(223, 216, 216);
+    border-radius: 20px;
+    margin-top: -17px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.who-can-see-button:hover {
+    background-color: rgb(224, 236, 255);
+}
+
+.media-image, .gif-image, .poll-image, .emoji-image,
+.schedule-image, .location-image
+{
+    width: 23px;
+    padding: 0px 8px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.media-image:hover, .gif-image:hover, .poll-image:hover,
+.schedule-image:hover, .location-image:hover,.emoji-image:hover {
+    background-color: rgb(224, 236, 255);
+}
+
+.pull-down-arrow-image {
+    width: 20px;
+    vertical-align: top;
+}
+
+.tweet-user {
+    margin-left: -75px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.message {
+    outline: none;
+    border: none;
+    margin-top: 15px;
+}
+
+.message::placeholder {
+    font-size: 24px;
+}
+
+.tool-kit {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -10px;
+}
+
+.tweet-editor {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(243, 239, 239);
+    padding-top: 13px;
+}
+
+.tweet-button {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    padding: 10px 23px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+}
+
+.tweet-button:hover {
+    background-color: rgb(17, 131, 207);
+}
+
+.no-of-tweets {
+    font-size: 19px;
+    color: rgb(29, 155, 240);
+    display: flex;
+    justify-content: space-around;
+    margin-top: -1px;
+    margin-right: 0px ;
+    border: 1px solid rgb(243, 239, 239);
+    height: 55px;
+    align-items: center;
+    padding-right: 20px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+}
+
+.no-of-tweets:hover {
+    background-color: rgb(245, 242, 242);
+}
+
+

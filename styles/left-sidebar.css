@@ -1,0 +1,126 @@
+.left-sidebar {
+    position: fixed;
+    width: 320px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 100;
+}
+
+.left-tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+ 
+}
+
+.left-container {
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    
+}
+
+.left-container:hover {
+    background-color: rgb(245, 242, 242);
+}
+
+.bird-icon-container{
+    height: 58px;
+    padding-left: 14px;
+    padding-top: 15px;
+}
+
+.home-svg {
+    padding: 10px 15px;
+}
+
+.left-tab-name {
+    padding: 9px 10px;
+    padding-right: 40px;
+}
+
+
+.home-svg {
+    width: 33px;
+}
+.bird-icon {
+    fill: rgb(29, 155, 240);
+    width: 36px;
+}
+
+
+.left-tweet-button {
+    font-size: 21px;
+    font-weight: 700;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    padding: 19px 76px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 24px;
+
+}
+
+.left-tweet-button:hover {
+    background-color: rgb(23, 138, 215);
+}
+
+.left-profile {
+    display: flex;
+    padding: 8px 4px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.left-profile:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.left-profile-text {
+    font-size: 19px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.left-profile-name {
+    font-weight: 500;
+    width: 95px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.left-profile-address {
+    color: rgb(89, 85, 85);
+    width: 105px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.left-profile .tweet-icon {
+    fill: black;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+

@@ -1,0 +1,197 @@
+.tweet-format {
+    display: flex;
+    padding: 14px 13px;
+    border: 1px solid rgb(243, 239, 239);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: -1px;
+}
+
+.tweet-format:hover {
+    background-color: rgb(245, 242, 242);
+}
+
+.tweet-container {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    padding-left: 15px;
+}
+
+.user-detail {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-bottom: 6px;
+}
+
+.user-detail-container {
+    display: flex;
+    align-items: center;
+    width: 480px;
+}
+
+.tweet-time:hover {
+    text-decoration: underline;
+}
+
+.tweet-stats {
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+}
+
+.stats-container-comment:hover .tweet-icon, .stats-container-view:hover
+.tweet-icon, .stats-container-share:hover .tweet-icon,
+.three-dot-container:hover .tweet-icon{
+    fill: rgb(29, 155, 240);
+}
+
+.stats-container-like:hover .tweet-icon {
+    fill: rgb(232, 51, 121);
+}
+
+.stats-container-retweet:hover .tweet-icon {
+    fill: rgb(68, 191, 23);
+}
+
+
+
+
+.tweet-icon {
+    width: 22px;
+    margin-right: 15px;
+}
+
+.stats-value {
+    font-size: 16px;
+}
+
+.stats-container-comment, .stats-container-view, .stats-container-like,
+.stats-container-retweet, .stats-container-share {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(116, 112, 112);
+}
+
+.stats-container-comment:hover, .stats-container-view:hover {
+    color: rgb(29, 155, 240);
+}
+
+.stats-container-comment:hover .icon-container,
+.stats-container-view:hover .icon-container
+{
+    background-color: rgb(202, 225, 241);
+}
+
+.three-dot-container {
+    padding: 4px 4px;
+    padding-left: 6px;
+    padding-bottom: 0px;
+    width: 26px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.three-dot-container:hover {
+    background-color: rgb(202, 225, 241);
+}
+
+.stats-container-retweet:hover .icon-container {
+    background-color: rgb(213, 246, 201);
+}
+
+.stats-container-retweet:hover .stats-value {
+    color: rgb(68, 191, 23);
+}
+
+.stats-container-like:hover .stats-value {
+    color: rgb(195, 48, 131);
+}
+
+
+.stats-container-like:hover .icon-container {
+    background-color: rgb(255, 218, 239);
+}
+
+.stats-container-share:hover .icon-container{
+    background-color: rgb(202, 225, 241)
+}
+
+.icon-container {
+
+    padding-left: 7px;
+    padding-right: 0px;
+    padding-top: 5px;
+    width: 30px;
+    border-radius: 100px;
+}
+
+
+
+
+.verify-tick {
+    width: 22px;
+    margin: 0px 4px;
+}
+
+.twitter-bird{
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin-right: 6px;
+}
+
+.tweet-info {
+    font-size: 18px;
+    color: rgb(116, 112, 112);
+}
+
+.tweet-reply-detail {
+    font-size: 18px;
+    color: rgb(116, 112, 112);
+    margin-bottom: 4px;
+}
+
+.reply-user-name {
+    color: rgb(29, 155, 240);
+}
+
+.reply-user-name:hover {
+    text-decoration: underline;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.user-name:hover {
+    text-decoration: underline;
+}
+
+.user-image {
+    width: 50px;
+    border-radius: 25px;
+    height: 50px;
+    margin-top: -4px;
+}
+
+.user-image:hover {
+    filter: brightness(90%); 
+}
+
+.content {
+    font-size: 18px;
+    line-height: 24px;
+    width: 500px;
+}
+
+.content-image {
+    width: 490px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
